@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    background-color: blueviolet;
+    color: black;
+    border-radius: 12px;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    transition: 3s;
+}
+
+body{
+    display: flex;
+}
+
+#Translate:hover{
+    transform: translate(50px,50px);
+}
+
+#Rotate:hover{
+    transform: rotate(45deg);
+}
+
+#Scale:hover{
+    transform: scale(1.5);
+}
+
+#Skew:hover{
+    transform: skew(20deg,10deg);
+}
